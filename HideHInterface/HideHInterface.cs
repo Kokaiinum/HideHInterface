@@ -7,7 +7,8 @@ using System.ComponentModel;
 namespace HideHInterface {
 
     [BepInProcess("Koikatu")]
-    [BepInPlugin("HideHInterface", "Hide H Interface", "1.0.1")]
+    [BepInProcess("Koikatsu Party")]
+    [BepInPlugin("HideHInterface", "Hide H Interface", "1.1")]
     public class HideHInterface : BaseUnityPlugin {
         private bool inHScene;
 
